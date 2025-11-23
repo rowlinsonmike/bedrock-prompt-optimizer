@@ -1,0 +1,5 @@
+.shadow
+.venv
+dist
+*.egg-info
+.DS_Store

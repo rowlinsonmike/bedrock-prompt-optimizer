@@ -1,0 +1,20 @@
+[project]
+name = "bpo"
+version = "0.1.0"
+description = "CLI to optimize prompts with AWS Bedrock"
+authors = [
+    {name = "Michael Rowlinson"},
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.41.2",
+    "questionary>=2.1.1",
+    "typer>=0.20.0",
+]
+
+[project.scripts]
+bpo = "bpo.main:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
