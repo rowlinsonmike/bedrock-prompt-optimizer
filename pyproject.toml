@@ -13,6 +13,9 @@ dependencies = [
     "typer>=0.20.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/rowlinsonmike/bedrock-prompt-optimizer"
+
 [project.scripts]
 bpo = "bpo.main:app"
 
